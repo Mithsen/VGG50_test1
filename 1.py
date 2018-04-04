@@ -15,9 +15,9 @@ from keras.preprocessing import image
 from keras.applications.vgg16 import preprocess_input
 
 PATH = os.getcwd()
-train_path = PATH + '/catdog/train'
-valid_path = PATH + '/catdog/valid'
-test_path = PATH + '/catdog/test'
+train_path = PATH + '/data/train'
+valid_path = PATH + '/data/valid'
+test_path = PATH + '/data/test'
 
 
 data_dir_list = os.listdir(train_path)
